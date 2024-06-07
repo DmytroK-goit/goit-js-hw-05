@@ -1,4 +1,4 @@
-const users = [
+const usersArray = [
   {
     name: "Moore Hensley",
     friends: ["Sharron Pace"],
@@ -73,5 +73,5 @@ const users = [
 //     gender: "male"
 //   }
 // ]
-const sortByDescendingFriendCount = users.toSorted((firstUser, secondUser) => secondUser.friends.length - firstUser.friends.length);
+const sortByDescendingFriendCount = usersArray.toSorted((firstUser, secondUser) => secondUser.friends.length - firstUser.friends.length);
 console.log(sortByDescendingFriendCount);
